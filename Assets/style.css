@@ -3,6 +3,7 @@
 
 body{
     background-color:#ffb6c121;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -53,8 +54,26 @@ ul{
 
 
 
+img{
+    width: 1000px;
+    height: 115px;
+}
+
+section{
+    display: inline-flex;
+    text-align:end;
+}
+
+p{
+    display: block;
+    margin-left: 320px;
+}
 
 
+h2, h3, h4{
+    border-right: solid white 5px;
+    padding:15px;
+}
 
 
 
