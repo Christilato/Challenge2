@@ -1,0 +1,86 @@
+
+
+
+body{
+    background-color:#ffb6c121;
+}
+
+
+header{
+    display:inline;
+}
+
+h1{
+    display:inline;
+    border: solid white;
+}
+
+nav{
+    display:inline;
+}
+
+nav ul{
+    list-style: none;
+    display: inline-flex;
+    margin: 15px;
+    margin-left: 475px;
+    padding: 20px;
+    margin-top:-75px;
+}
+
+ul{ 
+    text-decoration:underline;
+}
+
+#aboutme{
+    margin-right: 13px;
+    margin-left: 100px;
+}
+
+#work{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+#contactme{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#resume{
+    margin-right: 15px;
+    margin-left:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section ul{
+    list-style: none;
+    display: inline-flex;
+    margin: 30px;
+    margin-left: 325px;
+}
+
+section li{
+    margin-right:20px;
+}
+
+
+.section4{
+    display: inline-flex;
+    margin: 15px;
+}
