@@ -1,10 +1,15 @@
 
 
+:root{
+    --dark: #ffb6c1b2;
+    --light: #ffb6c121;
+}
 
 body{
-    background-color:#ffb6c121;
+    background-color: var(--light);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
 
 header{
@@ -14,56 +19,30 @@ header{
 
 h1{
     display:inline;
-    background-color: #ffb6c1b2;
     text-align:center;
+    color: var(--dark)
+}
+#about, #work, #contact{
+    color: var(--dark);
 }
 
+h3 div{
+    border:solid 5px;
+}
+
+.navigations{
+    color: var(--dark);
+}
 
 nav{
     display:inline;
-}
-
-nav ul{
-    list-style: none;
-    display: inline-flex;
     margin: 15px;
     margin-left: 475px;
     padding: 20px;
     margin-top:-75px;
     text-decoration:underline #ffb6c1b2;
+    color: var(--dark);
 }
-
-
-
-
-
-#aboutme{
-    margin-right: 13px;
-    margin-left: 100px;
-    color: #ffb6c1b2;
-    text-align:center;
-}
-
-#work{
-    margin-right: 15px;
-    margin-left: 15px;
-    color: #ffb6c1b2;
-    text-align:center;
-}
-#contactme{
-    margin-right: 15px;
-    margin-left: 15px;
-    color: #ffb6c1b2;
-    text-align:center;
-}
-
-#resume{
-    margin-right: 15px;
-    margin-left:15px;
-    color: #ffb6c1b2;
-    text-align:center;
-}
-
 
 
 img{
@@ -84,30 +63,54 @@ p{
 
 }
 
-
-h2, h3, h4{
-    border-right: solid white 5px;
-    padding:15px;
+.page-selcetion{
+display:flex;
+flex-direction: row;
+flex-wrap:wrap;
 }
 
-
-section ul{
-    list-style: none;
-    display: inline-flex;
-    margin: 30px;
-    margin-left: 325px;
+.flex-container{
+    display:flex;
+    flex-direction:row;
+    flex-basis: 150% -1rem;
 }
 
-section li{
-    margin-right:20px;
+.flex-item{
+    border: 5px solid;
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50%-1em);
+    display:flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: .5em;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
 }
 
-
-.section4{
-    display: inline-flex;
-    margin: 15px;
+.flex-item:first-child{
+    min-height:400px;
+    flex-basis:100%;
 }
 
-li h4{
-    text-decoration:underline #ffb6c1b2;
+.surf-report{
+    background-image: url(./Images/sunset.jpeg);
+}
+
+.led-wall{
+    background-image: url(./Images/sedona.jpeg);
+}
+
+.react-calc{
+    background-image: url(./Images/palms.jpeg);
+}
+
+.pastel-puzzles{
+    background-image: url(./Images/pinksky.jpg);
+}
+
+.run-buddy{
+    background-image: url(./Images/pool.jpeg);
 }
