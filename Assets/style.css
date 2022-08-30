@@ -62,6 +62,7 @@ h3 div{
     border:solid 5px;
 }
 
+
 .navigations{
     color: var(--dark);
 }
@@ -178,9 +179,11 @@ p{
   }
   
   .flex-item div {
-    background-color: var(--secondary);
+    background-color: var(--dark);
     padding: 8px 10px;
-  }
+    border: 5px solid var(--dark);
+    color:black;
+    }
   
   .flex-item h3 {
     font-size: 1.6rem;
