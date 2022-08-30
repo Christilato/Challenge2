@@ -75,7 +75,7 @@ nav {
 
 header h1 {
   color: var(--dark);
-  background-color: var(--secondary);
+  background-color: white;
   padding: 5px 1% 5px 6%;
   margin: 0;
   font-size: 4vw;
@@ -85,9 +85,9 @@ header h1 {
   nav a {
     text-decoration: none;
     padding: 5px 10px;
-    color: var(--secondary);
+    color: var(--dark);
     margin-right: 10px;
-    background-image: linear-gradient(270deg, var(--secondary) 0%, var(--secondary) 100%);
+    background-image: linear-gradient(270deg, var(--dark) 0%, var(--dark) 100%);
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
     background-position: bottom;
@@ -183,7 +183,7 @@ p{
     padding: 8px 10px;
     border: 5px solid var(--dark);
     color:black;
-    }
+  }
   
   .flex-item h3 {
     font-size: 1.6rem;
