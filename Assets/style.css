@@ -98,7 +98,7 @@ header h1 {
   
   nav a:hover {
     background-size: 100% 100%;
-    color: var(--primary);
+    color: var(--dark);
   }
   
   nav a:last-child {
@@ -139,6 +139,8 @@ p{
   
   .page-selection > div {
     flex: 0 0 77%;
+    display: flex;
+    justify-content: space-between;
   }
   
   .page-selection p {
@@ -148,7 +150,8 @@ p{
 .flex-container{
     display:flex;
     flex-wrap:wrap;
-    flex-basis: 150% -1rem;
+    flex-direction: row;
+    flex-basis: auto;
 }
 
 .flex-item {
@@ -195,18 +198,22 @@ p{
 
 .led-wall{
     background-image: url(./Images/sedona.jpeg);
+    width:50%;
 }
 
 .react-calc{
     background-image: url(./Images/palms.jpeg);
+    width:50%;
 }
 
 .pastel-puzzles{
     background-image: url(./Images/pinksky.jpg);
+    width:50%;
 }
 
 .run-buddy{
     background-image: url(./Images/pool.jpeg);
+    width:50%;
 }
 
 @media only screen and (max-width: 980px)
@@ -216,3 +223,4 @@ p{
     .flex-container {
         flex-direction:column;
     }
+
