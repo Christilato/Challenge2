@@ -192,8 +192,9 @@ p{
     font-size: 1.6rem;
   }
 
-.surf-report{
-    background-image: url(./Images/sunset.jpeg);
+.got-proj{
+    background-image: url(./Images/GOT-Header.jpg);
+    background-size: cover;
 }
 
 .led-wall{
