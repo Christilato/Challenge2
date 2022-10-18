@@ -194,7 +194,8 @@ p{
 
 .got-proj{
     background-image: url(./Images/GOT-Header.jpg);
-    background-size: cover;
+    background-size: contain ;
+    background-repeat: no-repeat;
 }
 
 .led-wall{
