@@ -1,8 +1,9 @@
-# Challenge2
-HW Challenge 2
+# Portfolio Page
 
 ## Description
-Building a portfolio page, to showcase my skilld and talents to employers. 
+The purpose of this project was to create a portfolio page where I can display my recent web development projects. Building this page is an important step towards becoming a competitive candidate for potential employers in the near future. I will be able to continually add content to this page as I complete more and more projects.
+
+I built this simple portfolio page using primarily HTML. I utililized the Bulma.io CSS framework in combination with my own CSS stylesheet to give this page a customized design.
 
 ## Screenshot
 
